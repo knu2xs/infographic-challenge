@@ -8,7 +8,7 @@ Esri, as the leading GIS software company in the world, has attracted arguably t
 
 Infographics, like maps, if done correctly, provide a means, "to separate the signal from the noise ([Dubrille, 2014](https://saintanselmhistory.wordpress.com/2014/05/26/the-map-as-the-original-infographic/)). Combining geographic GIS analyses and visualization with infographics provdies a means to communicate the results of complex geographic analyses succicently.
 
-##[Categories](judging.md/#categories)
+## [Categories](judging.md)
 
 * Effectiveness in communicating knowledge quickly and clearly.
 * Innovative use of custom external data.
