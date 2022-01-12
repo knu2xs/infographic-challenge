@@ -1,29 +1,11 @@
 name: infographic-challenge
 
 channels:
-  - esri
   - conda-forge
+  - defaults
 
 dependencies:
-  - esri::arcgis
-  - dask
-  - fiona
-  - h3-py
-  - jupyterlab
-  - munch
-  - nodejs
   - pip
-  - esri::pyarrow
-  - python=3.7
-  - python-dotenv
-  - pyyaml
-  - scipy
-  - scikit-learn
-  - seaborn
-  - shapely
-  - swifter
-  - tabulate
+  - python=3
   - pip:
-    - azure-storage-blob
-    - boto3
-    - placekey
+    - mkdocs

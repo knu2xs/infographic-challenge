@@ -1,0 +1,16 @@
+site_name: Infographic Challenge
+
+theme:
+  name: null
+  custom_dir: 'cinder'
+
+site_dir: '../docs'
+
+nav:
+  - Home: 'index.md'
+  - Getting Started: 'getting_started.md'
+  - Resources: 'resources.md'
+  - Judging: 'judging.md'
+
+extra:
+  logo: 'assets/images/esri_globe.png'
