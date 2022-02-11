@@ -8,9 +8,7 @@ site_dir: '../docs'
 
 nav:
   - Home: 'index.md'
-  - Getting Started: 'getting_started.md'
-  - Resources: 'resources.md'
-  - Judging: 'judging.md'
+  - Learning Resources: 'resources.md'
 
 extra:
   logo: 'assets/images/esri_globe.png'

@@ -1,4 +1,4 @@
-# Resources
+# Learning Resources
 
 ## ArcGIS Documentation
 * [Business Analyst Infographics](https://doc.arcgis.com/en/business-analyst/web/infographics.htm)

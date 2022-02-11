@@ -1,7 +1,0 @@
-# Judging
-
-## Categories
-
-## Criteria
-
-## Judges

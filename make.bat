@@ -36,19 +36,10 @@ SET ENV_NAME=infographic-challenge
 :: Jump to command
 GOTO %1
 
-:: Perform data preprocessing steps contained in the make_data.py script.
-:data
-    ENDLOCAL & (
-        CALL activate "%ENV_NAME%"
-        CALL python src/make_data.py
-        ECHO ^>^>^> Data processed.
-    )
-    EXIT /B
-
 :: Make documentation using Sphinx!
 :docs
     ENDLOCAL & (
-        CALL docsrc/make.bat github
+        CALL mkdocs build -f ./docsrc/mkdocs.yml -d ../docs
     )
 	EXIT /B
 
@@ -57,7 +48,7 @@ GOTO %1
     ENDLOCAL & (
 
         :: Create new environment from environment file
-        CALL conda env create -f environment_dev.yml
+        CALL conda env create -f environment.yml
 
         :: Install the local package in development (experimental) mode
         CALL python -m pip install -e .
@@ -67,71 +58,5 @@ GOTO %1
 
     )
     EXIT /B
-
-:: If pre ArcGIS Pro 2.7
-:env_clone
-    ENDLOCAL & (
-
-        :: Clone the main arcgispro-py3 environment
-        CALL conda create --name "%ENV_NAME%" --clone arcgispro-py3
-
-        :: Create new environment from environment file
-        CALL conda env update -e "%ENV_NAME%" -f environment.yml
-
-        :: Install the local package in development (experimental) mode
-        CALL python -m pip install -e .
-
-        :: Activate teh environment so you can get to work
-        CALL activate "%ENV_NAME%"
-    )
-    EXIT /B
-
-:: Activate the environment
-:env_activate
-    ENDLOCAL & CALL activate "%ENV_NAME%"
-    EXIT /B
-
-:: Remove the environment
-:env_remove
-	ENDLOCAL & (
-		CALL conda deactivate
-		CALL conda env remove --name "%ENV_NAME%" -y
-	)
-	EXIT /B
-
-:: Make the package for uploading
-:build
-    ENDLOCAL & (
-
-        :: Build the pip package
-        CALL python setup.py sdist
-
-        :: Build conda package
-        CALL conda build ./conda-recipe --output-folder ./conda-recipe/conda-build
-
-    )
-    EXIT /B
-
-:build_upload
-    ENDLOCAL & (
-
-        :: Build the pip package
-        CALL python setup.py sdist bdist_wheel
-        CALL twine upload ./dist/*
-
-        :: Build conda package
-        CALL conda build ./conda-recipe --output-folder ./conda-recipe/conda-build
-        CALL anaconda upload ./conda-recipe/conda-build/win-64/infographic-challenge*.tar.bz2
-
-    )
-    EXIT /B
-
-:: Run all tests in module
-:test
-	ENDLOCAL & (
-		activate "%ENV_NAME%"
-		pytest testing/
-	)
-	EXIT /B
 
 EXIT /B
