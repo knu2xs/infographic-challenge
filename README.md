@@ -4,22 +4,10 @@ Infographic Challenge resources.
 
 ## Getting Started
 
-1 - Clone this repo.
-
-2 - Create an environment with the requirements.
-    
-```
-        > make env
-```
-
-3 - Explore - If you are more into Python, a good place to start is `jupyter lab` from the root of the project, and look in the `./notebooks` directory. If GIS is more your schtick, open the project `./arcgis/infographic-challenge.aprx`.
+If you want to edit, please clone this project. The source for the documentation is located in `./docsrc/docs`. Most of the text is located in the `./docsrc/docs/index.md` file. If you want to see what your edits look like, you can either install `mkdocs` manually, or just build a Conda environment using `make env`. Once built, the command `make docs` will build the documentation and place the result in `./docs`. You can preview it by simply opening `./docs/index.htm`. It will open in your browser for you to preview.
 
 ## Using Make - common commands
 
-Based on the pattern provided in the [Cookiecutter Data Science template by Driven Data](https://drivendata.github.io/cookiecutter-data-science/) this template streamlines a number of commands using the `make` command pattern.
-
-- `make env` - builds the Conda environment with all the name and dependencies from `environment.yml`.
-
-- `make env_clone` - designed for environments using the default Conda instance installed with ArcGIS Pro. It is similar to `make env`, except this command clones the `arcgispro-py3` environment. Otherwise, it still installs the packages listed in `environment_dev.yml` and installs the local package using `pip` as described above.
+- `make env` - builds the Conda environment with all the name and dependencies from `environment.yml`. This mostly consists of installing MkDocs so the docs will build.
 
 - `make docs` - builds docs based on files in `./docsrc/source` and places them in `./docs`. This enables easy publishing in the master branch in GitHub.

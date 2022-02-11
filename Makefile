@@ -26,4 +26,5 @@ env:
 
 ## Make it easier to clean up the project when finished
 env_remove:
+	conda deactivate
 	conda env remove -n $(ENV_NAME)
