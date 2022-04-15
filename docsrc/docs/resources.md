@@ -1,5 +1,7 @@
 # Learning Resources
 
+<iframe src="http://cdnapi.kaltura.com/p/3057483/sp/305748300/embedIframeJs/uiconf_id/49028003/partner_id/3057483?iframeembed=true&playerId=kplayer&entry_id=1_4yfj6fxs&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+
 ## ArcGIS Documentation
 * [Business Analyst Infographics](https://doc.arcgis.com/en/business-analyst/web/infographics.htm)
 * [Community Analyst Infographics](https://doc.arcgis.com/en/community-analyst/help/infographics.htm)

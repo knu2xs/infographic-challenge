@@ -13,18 +13,18 @@ ENV_NAME = infographic-challenge
 
 ## Build the documents using MkDocs
 docs:
-	conda run -n $(ENV_NAME) mkdocs build -f ./docsrc/mkdocs.yml -d ../docs
+	conda run -p ./env mkdocs build -f ./docsrc/mkdocs.yml -d ../docs
 
 ## Build and push documents to tower
 docs_push:
-	conda run -n $(ENV_NAME) mkdocs build -f ./docsrc/mkdocs.yml -d ../docs
+	conda run -p ./env mkdocs build -f ./docsrc/mkdocs.yml -d ../docs
 	cp -r ./docs/* /Volumes/infographic_challenge
 
 ## Build the local environment from the environment file
 env:
-	conda env create -f environment.yml
+	conda env create -p ./env -f environment.yml
 
 ## Make it easier to clean up the project when finished
 env_remove:
 	conda deactivate
-	conda env remove -n $(ENV_NAME)
+	conda env remove -p ./env
