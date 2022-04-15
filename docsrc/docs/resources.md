@@ -1,6 +1,7 @@
 # Learning Resources
 
-<iframe src="http://cdnapi.kaltura.com/p/3057483/sp/305748300/embedIframeJs/uiconf_id/49028003/partner_id/3057483?iframeembed=true&playerId=kplayer&entry_id=1_4yfj6fxs&flashvars[streamerType]=auto" width="560" height="395" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" frameborder="0"></iframe>
+## Sharing Infographics from User Conference 2021
+<div style="max-width:400px"><div style="position:relative;padding-bottom:71.25%"><iframe id="kmsembed-1_4yfj6fxs" width="400" height="285" src="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_4yfj6fxs/uiConfId/49028003/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player" style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div></div>
 
 ## ArcGIS Documentation
 * [Business Analyst Infographics](https://doc.arcgis.com/en/business-analyst/web/infographics.htm)
