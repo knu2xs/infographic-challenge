@@ -1,7 +1,7 @@
 # Learning Resources
 
-## Sharing Infographics from User Conference 2021
-<div style="max-width:400px"><div style="position:relative;padding-bottom:71.25%"><iframe id="kmsembed-1_4yfj6fxs" width="400" height="285" src="https://mediaspace.esri.com/embed/secure/iframe/entryId/1_4yfj6fxs/uiConfId/49028003/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player" style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe></div></div>
+## Esri Hosted Videos
+* [Sharing Infographics from User Conference 2021](https://mediaspace.esri.com/embed/secure/iframe/entryId/1_4yfj6fxs/uiConfId/49028003/st/0)
 
 ## ArcGIS Documentation
 * [Business Analyst Infographics](https://doc.arcgis.com/en/business-analyst/web/infographics.htm)
@@ -15,7 +15,6 @@
 ## Esri Blog Posts
 * [Make Your Mark with Customized Infographics](https://www.esri.com/arcgis-blog/products/bus-analyst/business/make-your-mark-with-customized-infographics/)
 * [Using Custom Infographic Panels in Business Analyst](https://www.esri.com/arcgis-blog/products/bus-analyst/business/using-custom-infographic-panels-in-business-analyst/)
-* [ArcGIS for Office and ArcGIS for SharePoint: Infographics Card Tips and Tricks](https://www.esri.com/arcgis-blog/products/esri-maps-sharepoint/analytics/arcgis-for-office-and-arcgis-for-sharepoint-infographics-card-tips-and-tricks/)
 * [Sharing Infographics in ArcGIS Dashboards from ArcGIS Business Analyst](https://www.esri.com/arcgis-blog/products/bus-analyst/business/sharing-infographics-in-arcgis-dashboards-from-arcgis-business-analyst/)
 * [Sharing ArcGIS Business Analyst Infographics in ArcGIS Hub Sites](https://www.esri.com/arcgis-blog/products/bus-analyst/sharing-collaboration/sharing-infographics-in-hub-sites/)
 * [Side-by-Side Comparison Infographics in ArcGIS Business Analyst](https://www.esri.com/arcgis-blog/products/bus-analyst/business/comparison-infographics/)
