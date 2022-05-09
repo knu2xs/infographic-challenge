@@ -8,7 +8,7 @@ site_dir: '../docs'
 
 nav:
   - Home: 'index.md'
-  - Learning Resources: 'resources.md'
+#  - Learning Resources: 'resources.md'
 
 extra:
   logo: 'assets/images/esri_globe.png'
